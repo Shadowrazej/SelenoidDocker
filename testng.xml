@@ -1,0 +1,12 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name="SelenoidDocker">
+
+    <test name="simple test">
+        <classes>
+            <class name="com.test.checkboxes.CheckboxesTest"/>
+            <class name="com.test.dragAndDrop.DragAndDropTest"/>
+        </classes>
+    </test>
+
+</suite>
